@@ -1,0 +1,21 @@
+{
+    "name": "samuel/curry",
+    "description": "Projet d'introduction aux TU/TI/TC",
+    "type": "project",
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "Samuel",
+            "email": "samuelcondat@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Curry\\" : "src/app"
+        }
+    }
+}
